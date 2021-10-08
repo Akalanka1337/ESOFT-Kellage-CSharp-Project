@@ -82,5 +82,11 @@ namespace ESOFTA1337Project
             }
 
         }
+
+        private void ClearBtn_Click(object sender, EventArgs e)
+        {
+            StudentRegistration call = new StudentRegistration(); //need to fix
+            call.clear_All_Data();
+        }
     }
 }

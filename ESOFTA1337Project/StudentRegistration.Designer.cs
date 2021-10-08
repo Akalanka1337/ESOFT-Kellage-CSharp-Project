@@ -89,6 +89,7 @@
             this.userRegNo.Name = "userRegNo";
             this.userRegNo.Size = new System.Drawing.Size(121, 21);
             this.userRegNo.TabIndex = 4;
+            this.userRegNo.SelectedIndexChanged += new System.EventHandler(this.userRegNo_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -359,6 +360,7 @@
             this.upBtn.TabIndex = 2;
             this.upBtn.Text = "Update";
             this.upBtn.UseVisualStyleBackColor = true;
+            this.upBtn.Click += new System.EventHandler(this.upBtn_Click);
             // 
             // clBtn
             // 
@@ -378,6 +380,7 @@
             this.DelBtn.TabIndex = 4;
             this.DelBtn.Text = "Delete";
             this.DelBtn.UseVisualStyleBackColor = true;
+            this.DelBtn.Click += new System.EventHandler(this.DelBtn_Click);
             // 
             // terminateSes
             // 
@@ -402,8 +405,11 @@
             this.Controls.Add(this.upBtn);
             this.Controls.Add(this.regBtn);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "StudentRegistration";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Registration";
+            this.Load += new System.EventHandler(this.StudentRegistration_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
