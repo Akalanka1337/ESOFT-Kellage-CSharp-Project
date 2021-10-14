@@ -3,6 +3,7 @@
  - [x] Full Source : YES 
  - [x] Any Bugs?: YES
 
-### [❤️](https://emojipedia.org/red-heart/) DM me for modifications/ full source without bugs [❤️](https://emojipedia.org/red-heart/)
+### ❤️ DM me for modifications/ full source without bugs ❤️
+[DM NOW](https://bit.ly/Akalanka)
 
- - [x] **Best Price Guaranteed!** [🔥](https://emojipedia.org/fire/)
+ - [x] **Best Price Guaranteed!** 🔥
